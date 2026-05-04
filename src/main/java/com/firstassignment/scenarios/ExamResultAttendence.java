@@ -1,0 +1,24 @@
+package com.firstassignment.scenarios;
+
+import java.util.Scanner;
+
+public class ExamResultAttendence {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int marks = sc.nextInt();
+		int attendance = sc.nextInt();
+		
+		 if (marks >= 50) {
+	            if (attendance >= 75) {
+	                System.out.println("PASS");
+	            } else {
+	                System.out.println("FAIL");
+	            }
+	        } else {
+	            System.out.println("FAIL");
+	        }
+	}
+	}
+
+
